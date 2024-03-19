@@ -1,0 +1,24 @@
+{
+  "name": "star-route-proxy",
+  "version": "1.0.0",
+  "description": "Star Route Proxy is a Node.js module used to route incoming requests to different destinations.",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["reverse-proxy", "routing", "proxy", "middleware", "http-proxy"],
+  "author": "Can <fastuptime@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fastuptime/star-route-proxy"
+  },
+  "bugs": {
+    "url": "https://github.com/fastuptime/star-route-proxy/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
